@@ -1,45 +1,55 @@
 {
-    "name": "orchestra/facile",
-    "description": "Facile Component for Orchestra Platform",
-    "homepage": "http://orchestraplatform.com/docs/latest/components/facile/",
-    "keywords": ["orchestra-platform", "orchestral", "laravel"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mior Muhammad Zaki",
-            "email": "crynobone@gmail.com",
-            "homepage": "https://github.com/crynobone"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Orchestra\\Facile\\" : "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Orchestra\\Facile\\TestCase\\" : "tests/"
-        }
-    },
-    "require": {
-        "php": "^7.3 || ^8.0",
-        "illuminate/contracts": "^8.0",
-        "orchestra/support": "^6.0",
-        "spatie/array-to-xml": "^2.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^6.17"
-    },
-    "suggest": {
-        "maatwebsite/excel": "Allow to export XLS and XLSX (^3.0)."
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "6.x-dev"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+  "name": "orchestra/facile",
+  "description": "Facile Component for Orchestra Platform",
+  "homepage": "http://orchestraplatform.com/docs/latest/components/facile/",
+  "keywords": [
+    "orchestra-platform",
+    "orchestral",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mior Muhammad Zaki",
+      "email": "crynobone@gmail.com",
+      "homepage": "https://github.com/crynobone"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Orchestra\\Facile\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Orchestra\\Facile\\TestCase\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/contracts": "^9.0",
+    "orchestra/support": "7.x-dev",
+    "spatie/array-to-xml": "^2.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0"
+  },
+  "suggest": {
+    "maatwebsite/excel": "Allow to export XLS and XLSX (^3.0)."
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "7.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/katsana-external/support"
+    }
+  ]
 }
